@@ -43,18 +43,32 @@
 2. **Clone Locally**: Clone the forked repository to your local machine using a Git client.
    ```sh
    git clone https://github.com/sadikatanisha/Creative-learning-platfrom
+   cd creative-learning-platform
    ```
-3. **cd into frontend**: create a .env file.
+3. **Navigate to the frontend directory:**
    ```sh
-   cd frontend/ 
+   cd frontend
    ```
+4. **Install the dependencies:**
    ```sh
-   npm i
+   npm install
    ```
-  
-4. **cd into backend**: create a .env file.
-5. **Commit Your Changes**: Commit with a clear message describing your updates.
-   ```sh
-   cd backend/
+   <summary>Configuration</summary>
+4. **Create a .env file in the frontend directory:**
+    ```sh
+   touch .env
    ```
 
+5. **Add the following environment variables to the .env file:** 
+   ```sh
+   NEXT_PUBLIC_SERVER_URI=
+   GOOGLE_CLIENT_ID=
+   GOOGLE_CLIENT_SECRET=
+   SECRET
+   ```
+ <summary>Running the project</summary>
+ **Additional Scripts**
+
+ ```sh
+   npm run dev
+   ```
