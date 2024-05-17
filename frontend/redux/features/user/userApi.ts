@@ -41,6 +41,13 @@ export const userApi = apiSlice.injectEndpoints({
         credentials: "include" as const,
       }),
     }),
+    getAllInstructors: builder.query({
+      query: () => ({
+        url: "instructors",
+        method: "GET",
+        credentials: "include" as const,
+      }),
+    }),
   }),
 });
 
@@ -50,4 +57,5 @@ export const {
   useUpdatePasswordMutation,
   useGetAllUserQuery,
   useUpdateUserRoleMutation,
+  useGetAllInstructorsQuery,
 } = userApi;

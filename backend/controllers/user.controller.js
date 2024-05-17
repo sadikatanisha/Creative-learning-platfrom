@@ -320,6 +320,21 @@ const updateUserRole = CatchAsyncError(async (req, res, next) => {
   }
 });
 
+const getInstructors = CatchAsyncError(async (req, res, next) => {
+  try {
+    const instructors = await userModel
+      .find({ role: "instructor" })
+      .select("avatar name email role")
+      .sort({ createdAt: -1 });
+    res.status(200).json({
+      success: true,
+      instructors,
+    });
+  } catch (error) {
+    return next(new ErrorHandler(error.message, 500));
+  }
+});
+
 module.exports = {
   registerUser,
   activateUser,
@@ -333,4 +348,5 @@ module.exports = {
   updateProfilePicture,
   getAllUsers,
   updateUserRole,
+  getInstructors,
 };

@@ -12,7 +12,7 @@ export interface RootState {
 export const apiSlice = createApi({
   reducerPath: "api",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:8088/api/v1/",
+    baseUrl: "https://creative-learning-platfrom-2.onrender.com/api/v1/",
     credentials: "include",
     prepareHeaders: (headers, { getState }) => {
       const state = getState() as RootState;

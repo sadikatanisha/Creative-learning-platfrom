@@ -98,7 +98,7 @@ const Header: FC<Props> = ({ activeItem, route, setRoute, open, setOpen }) => {
               <Link href="/courses" className="text-black dark:text-white">
                 Courses
               </Link>
-              <Link href="/instructor" className="text-black dark:text-white">
+              <Link href="/instructors" className="text-black dark:text-white">
                 Instructor
               </Link>
               {user && (

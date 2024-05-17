@@ -2195,6 +2195,12 @@ html {
 .mt-\[80px\] {
   margin-top: 80px !important;
 }
+.mb-6 {
+  margin-bottom: 1.5rem !important;
+}
+.mt-4 {
+  margin-top: 1rem !important;
+}
 .block {
   display: block !important;
 }
@@ -2242,6 +2248,9 @@ html {
 }
 .h-screen {
   height: 100vh !important;
+}
+.h-48 {
+  height: 12rem !important;
 }
 .min-h-\[45px\] {
   min-height: 45px !important;
@@ -2525,6 +2534,9 @@ html {
 .fill-current {
   fill: currentColor !important;
 }
+.object-cover {
+  object-fit: cover !important;
+}
 .p-10 {
   padding: 2.5rem !important;
 }
@@ -2635,6 +2647,10 @@ html {
 .text-sm {
   font-size: 0.875rem !important;
   line-height: 1.25rem !important;
+}
+.text-3xl {
+  font-size: 1.875rem !important;
+  line-height: 2.25rem !important;
 }
 .font-\[400\] {
   font-weight: 400 !important;
@@ -2862,6 +2878,11 @@ body {
 
 @media (min-width: 640px) {
 
+  .sm\:mx-8 {
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   }
@@ -2929,8 +2950,18 @@ body {
 
 @media (min-width: 1024px) {
 
+  .lg\:mx-16 {
+    margin-left: 4rem !important;
+    margin-right: 4rem !important;
+  }
+
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+
+  .lg\:px-16 {
+    padding-left: 4rem !important;
+    padding-right: 4rem !important;
   }
 }
 

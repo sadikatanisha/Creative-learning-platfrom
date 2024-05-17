@@ -12,6 +12,7 @@ const {
   updateUserInfo,
   getAllUsers,
   updateUserRole,
+  getInstructors,
 } = require("../controllers/user.controller");
 const { isAuthenticated, authorizeRoles } = require("../middleware/auth");
 
@@ -60,4 +61,5 @@ userRouter.put(
   updateUserRole
 );
 
+userRouter.get("/instructors", getInstructors);
 module.exports = userRouter;

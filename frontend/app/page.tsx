@@ -4,6 +4,7 @@ import Heading from "./utils/Heading";
 import Header from "./components/Header";
 import HeroSlider from "./components/HeroSlider";
 import Footer from "./components/Footer";
+import ApprovedCourses from "./components/courses/ApprovedCourses";
 
 interface Props {}
 
@@ -26,6 +27,7 @@ const Page: FC<Props> = (props) => {
         setRoute={setRoute}
       />
       <HeroSlider />
+      <ApprovedCourses />
       <Footer />
     </div>
   );
