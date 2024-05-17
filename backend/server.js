@@ -33,7 +33,7 @@ app.use(cookieParser());
 // CORS
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://creative-learning-platfrom-frontend.vercel.app",
     credentials: true,
   })
 );
