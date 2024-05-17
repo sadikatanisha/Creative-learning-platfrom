@@ -33,7 +33,28 @@
     <em>Overview</em>
 </p>
 <p align="center">
-	<em>This project is a web application designed with a robust architecture using modern web technologies. The frontend is built with TypeScript, Next.js, Tailwind CSS, and RTK Query for efficient state management and data fetching. The backend is powered by Express.js and MongoDB, with JWT for secure user authentication and token regeneration.
+	<em>This project is a web application designed with a robust architecture using modern web technologies. The front end is built with TypeScript, Next.js, Tailwind CSS, and RTK Query for efficient state management and data fetching. The backend is powered by Express.js and MongoDB, with JWT for secure user authentication and token regeneration.
 
 </em>
 </p>
+   <summary>Contributing Guidelines</summary>
+
+1. **Fork the Repository**: Start by forking the project repository to your GitHub account.
+2. **Clone Locally**: Clone the forked repository to your local machine using a Git client.
+   ```sh
+   git clone https://github.com/sadikatanisha/Creative-learning-platfrom
+   ```
+3. **cd into frontend**: create a .env file.
+   ```sh
+   cd frontend/ 
+   ```
+   ```sh
+   npm i
+   ```
+  
+4. **cd into backend**: create a .env file.
+5. **Commit Your Changes**: Commit with a clear message describing your updates.
+   ```sh
+   cd backend/
+   ```
+
