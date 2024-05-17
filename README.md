@@ -37,7 +37,10 @@
 
 </em>
 </p>
-   <summary>Contributing Guidelines</summary>
+   <summary> Installation </summary>
+   <p align="center">
+    Client Setup
+</p>
 
 1. **Fork the Repository**: Start by forking the project repository to your GitHub account.
 2. **Clone Locally**: Clone the forked repository to your local machine using a Git client.
@@ -66,9 +69,56 @@
    GOOGLE_CLIENT_SECRET=
    SECRET
    ```
+
+   <p align="center">
+    Server Setup
+</p>
+
+
+1. **Navigate to the backend directory:**
+   ```sh
+   cd ../backend
+   ```
+4. **Install the dependencies:**
+   ```sh
+   npm install
+   ```
+4. **Create a .env file in the frontend directory:**
+    ```sh
+   touch .env
+   ```
+
+5. **Add the following environment variables to the .env file:** 
+   ```sh
+   PORT=8088
+	ORIGIN=http://localhost:3000
+	NODE_ENV=development
+	DB_URL='mongodb+srv://sadika:Du4XcxYddjAXf5q1@cluster0.t7kjxar.mongodb.net/Creative-art-studio'
+	CLOUD_NAME=dneqnxfny
+	CLOUD_API_KEY=991598349332533
+	CLOUD_API_SECRET=Wby0F3SvNdELBkHhTFkZ_TbOVSM
+	REDIS_URL=rediss://default:9c91ad78cc944790afcc4fefc99104f0@apn1-wealthy-caiman-35320.upstash.io:35320
+	ACTIVATION_SECRET=56363763120
+	ACCESS_TOKEN='24CI8G/G9HO7a!KBZlZO;K"Lm`(v953Q*2£p.cijV74c!%x!2.'
+	REFRESH_TOKEN='Z#|&7p\6%K5M-y1P3(£l|kS"(gR.DI%<c3_m£tD5z!KRQ}w_7J'
+	ACCESS_TOKEN_EXPIRE=5
+	REFRESH_TOKEN_EXPIRE=3
+	SMTP_HOST=smtp.gmail.com
+	SMTP_PORT=465
+	SMTP_SERVICE=gmail
+	SMTP_MAIL=sadikarahmantanisha@gmail.com
+	SMTP_PASSWORD=jcfl osrt vnqi hxqa
+
+   ```
  <summary>Running the project</summary>
  **Additional Scripts**
-
+Frontend
  ```sh
    npm run dev
+   ```
+
+Backend
+
+ ```sh
+   npm start
    ```
