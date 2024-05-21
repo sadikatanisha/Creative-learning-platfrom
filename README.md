@@ -39,7 +39,9 @@
 <p align="center">
 	<em>The Role-Based Application is a comprehensive platform designed to manage user roles and class enrollments efficiently. Built with a robust stack, the front end leverages TypeScript, Next.js, Redux, and Tailwind CSS to create a responsive and dynamic user interface. The backend is powered by Express.js and MongoDB, with JWT (JSON Web Tokens) for secure authentication.
 </em>
-	</p>
+</p>
+
+
 ## Functionalities:
  ** User:** Users can browse available classes and enroll in them seamlessly.
  ** Instructor:** Instructors have the capability to create, edit, and delete their classes, providing them with full control over their content.
