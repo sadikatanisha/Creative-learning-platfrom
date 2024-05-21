@@ -37,10 +37,20 @@
   <img align='center' src='Creati-home-page.gif' width='300"'>
 </p>
 <p align="center">
-	<em>This project is a web application designed with a robust architecture using modern web technologies. The front end is built with TypeScript, Next.js, Tailwind CSS, and RTK Query for efficient state management and data fetching. The backend is powered by Express.js and MongoDB, with JWT for secure user authentication and token regeneration.
-
+	<em>The Role-Based Application is a comprehensive platform designed to manage user roles and class enrollments efficiently. Built with a robust stack, the front end leverages TypeScript, Next.js, Redux, and Tailwind CSS to create a responsive and dynamic user interface. The backend is powered by Express.js and MongoDB, with JWT (JSON Web Tokens) for secure authentication.
 </em>
-</p>
+	</p>
+## Functionalities:
+ ** User:** Users can browse available classes and enroll in them seamlessly.
+ ** Instructor:** Instructors have the capability to create, edit, and delete their classes, providing them with full control over their content.
+ ** Admin:** Admins oversee the platform by approving classes and managing user roles, ensuring smooth operation and governance of the application.
+
+## Lessons Learned:
+This project was a significant learning experience, particularly in managing complex state with Redux and integrating TypeScript with Next.js for type-safe code. Implementing role-based access control taught me how to handle different user permissions effectively. I also gained deeper insights into backend development, particularly in securing RESTful APIs with JWT and optimizing MongoDB performance.
+
+One of the most rewarding moments was successfully integrating the end-to-end user authentication flow and seeing how different user roles interact with the application seamlessly. This project has bolstered my skills in both front-end and back-end development and reinforced my understanding of building scalable, maintainable applications.
+
+
    <summary> Installation </summary>
    <p align="center">
     Client Setup
